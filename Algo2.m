@@ -24,8 +24,8 @@ M = containers.Map(keySet,valueSet);
             if J(i,j) == 0 || J(i,j) == 255
                 J(i,j) = NewValue(i,j);
             end
-        end 
-    end 
+        end
+    end
     
 subplot(1,3,3)
 imshow(J)
